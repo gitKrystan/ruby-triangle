@@ -1,0 +1,7 @@
+<h1>Your triangle is:</h1>
+
+<% if !@user_triangle.is_triangle?() %>
+  <h2>not a triangle!</h2>
+<% else %>
+  <h2><%= @triangle_output %></h2>
+<% end %>
